@@ -1,0 +1,151 @@
+This is pdfeTeX, Version 3.141592-1.20a-rc7.2-2.2 (MiKTeX 2.4) (preloaded format=latex 2005.1.6)  1 JUN 2005 23:34
+entering extended mode
+**C:/Documents*and*Settings/Sean/Desktop/immune*system.tex
+(C:/Documents and Settings/Sean/Desktop/immune system.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8a> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(C:\texmf\tex\latex\base\report.cls
+Document Class: report 2004/02/16 v1.4f Standard LaTeX document class
+(C:\texmf\tex\latex\base\size12.clo
+File: size12.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(C:\texmf\tex\latex\graphics\pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(C:\texmf\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:\texmf\tex\latex\setspace\setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (immune system.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+ (C:\texmf\tex\context\base\supp-pdf.tex
+(C:\texmf\tex\context\base\supp-mis.tex
+loading : Context Support Macros / Miscellaneous 
+\protectiondepth=\count89
+\scratchcounter=\count90
+\scratchtoks=\toks15
+\scratchdimen=\dimen105
+\scratchskip=\skip43
+\scratchmuskip=\muskip10
+\scratchbox=\box26
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen106
+\onepoint=\dimen107
+\onebasepoint=\dimen108
+\minusone=\count91
+\thousandpoint=\dimen109
+\onerealpoint=\dimen110
+\emptytoks=\toks16
+\nextbox=\box27
+\nextdepth=\dimen111
+\everyline=\toks17
+\!!counta=\count92
+\!!countb=\count93
+\recursecounter=\count94
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 13.
+ [1
+
+{sfonts.map}] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
+[]\OT1/cmr/m/n/12 Greg Ster-i-jevski, \OT1/cmr/m/it/12 The Data E,cryption Stan
+-dard
+ []
+
+[12
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 96--100
+[]\OT1/cmr/m/n/12 Arnoud En-gel-friet, \OT1/cmr/m/it/12 The DES en-cryp-tion al
+-go-rithm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--110
+[]\OT1/cmr/m/n/12 Arnoud En-gel-friet, \OT1/cmr/m/it/12 The DES en-cryp-tion al
+-go-rithm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+[]\OT1/cmr/m/n/12 Dave Rudolf, \OT1/cmr/m/it/12 Op-ti-mized Dif-fer-en-tial Cry
+pt-analy-sis of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\OT1/cmr/m/it/12 Data En-cryp-tion Stan-dard \OT1/cmr/m/n/12 Uni-ver-sity of Sa
+skatchewan,
+ []
+
+[13] (immune system.aux) ) 
+Here is how much of TeX's memory you used:
+ 987 strings out of 95519
+ 11246 string characters out of 1189652
+ 60014 words of memory out of 1060718
+ 4099 multiletter control sequences out of 35000
+ 6709 words of font info for 24 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 25i,6n,19p,1889b,205s stack positions out of 1500i,500n,5000p,200000b,32768s
+ 57 PDF objects out of 300000
+ 0 named destinations out of 300000
+ 1 words of extra memory for PDF output out of 65536
+<C:\texmf\fonts\type1\bluesky\cm\cmti12.pfb><C:\texmf
+\fonts\type1\bluesky\cm\cmbx12.pfb><C:\texmf\fonts\type1\bluesky\cm\cmr12.pfb><
+C:\texmf\fonts\type1\bluesky\cm\cmr17.pfb>
+Output written on immune system.pdf (14 pages, 57953 bytes).

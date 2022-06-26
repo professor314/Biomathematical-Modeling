@@ -1,0 +1,120 @@
+\documentclass[12pt ]{report}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{setspace}  %need this to double space
+\begin{document}
+\setstretch{2}  %this double spaces it I think
+\title{Modeling of the Immune system}
+\author{Sean Connolly\\
+The Evergreen State College\\
+Methods of Applied Mathematics\\
+professorpi@hotmail.com}
+\date{\today}
+\maketitle
+
+\section*{Introduction}
+Viruses are in us and around us everyday and can certainly effect our daily lives.  But what are viruses, really?  What are the major parts of our body that keep them at bay and how complex is this system?  My goal is to explain exactly how complicated it is while also demonstrating that it is possible to model it using a computer.  I will explain what viruses, host cells, B-cells, antibodies, macrophages, T-cells, and helper T-cells are as well as the processes that connect them all.  Cell motility will also be breifly touched upon and my computer model explained in a general sort of way.
+\section*{Misconceptions}
+It is a common misconception that the immune system is symply a bunch of white blood cells that hunt down and destroy viruses, bacteria and other such pathogens.  The immune system is, in reality, much more complicated which is the motivation behind this research paper.  If the immune system did work this way, then how would a virus infection be halted if there are always viruses inside of host cells, immune to the attacks of the "`white blood cells"'?  It is therefore obvious that there is, indeed, more to it than a seek and destroy initiative.  Infact, white blood cells are a group of different kinds of cells which work together in the immune system.  It isn't just one type of do-all cell.  Without this synergy between the cells, the immune system simply could not work
+
+it is another common misconception that the immune system is dormant when not in use and that it only becomes active when we get a splinter or inhale a friends germs.  This is simply ridiculous.  If this were true, then why would an animal's body which has only been dead a few days start to rot, smell and otherwise fall apart?  It is because it does not contain an immune system to stop all of the viruses, bacteria, and fungai from invading and tearing apart the entire animal.  The immune system is constantly keeping these antigens at bay and constantly needs to create new cells to replace the old ones which have worked so hard.  The immune system is as important as any other system in the body, without it we could not live even a week.
+
+Not only are white blood cells misrepresented, but so are viruses.  It is a common belief that viruses grow much like bacteria, multiplying and eating up cells in their path.  Nothing can be farther from the truth.  Infact, viruses aren't even considered to be alive, whereas bacteria are.  Also, viruses need to have their host cells to be alive in order to replicate themselves.  If they ate their host cells they could not replicate.  Viruses also have no means to simply divide like a bacteria or a human cell.  Bacteria and viruses are entirely different things.
+
+Also, contrary to popular belief, drugs cannot kill viruses.  This belief probably stems from people buying over the counter cold medications, taking them and noticing that their symptoms have disapeared.  Yes, the symptoms have disapeared, but the war within your body rages on just the same.  Many viruses themselves show no symptoms when present in the body; symptoms or lack thereof in no way gaurentees that viruses or no viruses are in the body.  Infact, viruses are constantly in your body.
+\section*{Viruses}
+If viruses aren't like bacteria, then what are they?  Viruses have one soul purpose and that is to replicate.  That is all they do and that is what all of their mechanisms have evolved to do.  Viruses don't go hunting after human cells with the sole purpose of destroying them, this is just what happens in the process of replication.  The process a virus goes through in order to replicate is called the "`lytic cycle"' and consists of six basic steps:
+\begin{enumerate}
+	\item A virus particle attaches to a host cell.
+	\item The particle releases its genetic instructions into the host cell. 
+	\item The injected genetic material recruits the host cell's enzymes.
+	\item The enzymes make parts for more new virus particles.
+	\item The new particles assemble the parts into new viruses.
+	\item The new particles break free from the host cell. 
+\end{enumerate}
+\noindent This process can take anywhere from a few hours to days or more depending on the specific type of virus.  The virus attaches to a host cell by means of a chemical key.  Viruses attack certain cells because this is the chemical key they posses.  They have receptors specifically made to latch on to specific parts of specific cells.  This is why usually viruses from other animals can't harm us, they are very specialized.  The virus, after attached to a host cell, then releases its genetic material (either DNA or RNA) into the host, leaving it's now empty body outside.  The genetic material which has entered the cell then uses the cells own enzymes to make the pieces of many viruses and ultimatly puting them together.  Eventually from the cell burst many new viruses ready to infect any nearby cells or enter the blood stream to infect cells elsewhere.  This is one of the reasons we get sick, some viruses destroy their host cells.  This is what causes a runnie nose (from holes created in the sinus wall) and muscle pains (from muscle tissue being annilated).  This efficient process is what keeps viruses present in their host as well as migrating to new hosts from sneezes, coughs, or various forms of fluid exchange.  Lucky for us, the immune system has counter measures such as highering temperatures in order to impede or slow down this cycle.
+
+As one knows from the yearly flu vacinations, viruses mutate very quickly.  This is because of, for one thing, the extreme invironmental preasures in which the viruses must survive.  They are constantly being attacked.  Of course, the only ones able to replicate are those that are able to get to a host cell and implant its code before dying.  Viruses are also too small and simple to contain the anti-muatation mechanisms that our own cells posses in order to keep us looking relitively human our entire lives.  This high mutation rate is one of the main reasons why H.I.V. is so hard to stop.  The virus simply mutates too fast for a vacine to do much good.
+\section*{Host Cells and T-cells}
+Just about any type of cell can become a host to a virus.  Like stated earlier, the virus decides which type of cell thit will take as its host.  For instance the flue virus takes mucous membranes as its host while H.I.V. takes T-cells.  Host cells don't always die when infected, but again it depends on the virus.
+Host cells do have at least some of the own protection however.  For one thing, if a host cell has already been attacked and is producing new viruses, it sends out chemical signals to alert neighbor cells that danger is near by.  These nearby cells are then able to up their own natural defenses in preparation.  
+
+Infected host cells are able to communicate with T-cells telling them, chemically, that they are infected.  The T-cells then anilate the infected host cell in order to save the organism as a whole.  The T-cells at the same time recruit macrophages to come by and help to get rid of any lingering viruses that are left afterwards or which may be near by.  The T-cells are also able to kill a specific type of antigen which is decided when they mature.  It uses the same lock and key mechanism that viruses use to lock onto host cells to instead lock onto viruses.  So T-cells are able to fight off the infection in this way as well.
+\section*{B-cells, Antibodies and Helper-T-cells}
+B-cells are very important in the immune system.  They are the cells that actually create the antibodies which will stick to the viruses, rendering them helpless and unable to attach themselves onto host cells and replicate.  When a B-cell is close to a virus whose strain fits the B-cells receptor, the B-cell starts to replicate ino memory cells and into plasma cells.  
+
+The plasma cells produce the antibodies which after secreted, flow with the blood, sticking to any virus that the antibody was made to stick to.  This uses the same lock and key mechanism that the viruses use to latch on to host cells.
+
+The helper T-cell "`recognise the non-self antigen (from the foreign cells) that the macrophages display on their outer surface."'[master frameset]  They recognise the antigens and stimulate B cells to divide.  Without the help of helper T-cells the B-cells can't divide and create antibodies.[]
+
+The memory cells are able to live in some cases for years and make sure that if there is ever a reinfection, the immune system will know what type of antibodies to produce immediatly.  This is what makes vacinations possible and is also why when you infect someone in your family with your virus and you recover, They can't then return the favor.
+\section*{Macrophages}
+Macrophages are what do most of the free-virus annilating.  They are the white blodd cells that latch on to nearby viruses and then "`digest"' them inside of itself.  They latch on to the viruses by means of the base of the antibodies to which they are attached.  They also eat bacteria and other antigens besides viruses.
+\section*{Cell Motility}
+Different kinds of cells move in differnt ways.  The three main types are flagella, cilia and amoeboid motion.  Flagella is like a waving tail or tenticles and work like propellers.  This is the way by which a sperm cell is able to move.  Cilia are little hair like things which make up a lot of the outside of certain types of cells.  These allow the cells to move much like oars help one to row and are also what help in moving food and neutrients through the digestive system.  White blood cells move by amoeboid motion.  This is a kind of crawling which consists of reaching out lamillipodium, grabing onto something and then pulling itself along.  This is way slower than the other two types of locomotion, but allows the white blood cells to pursue the antigens rather than flow with the rest of the blood when
+Amoeboid motion is strong enough to move the cell against current when it is in an infected area of the body where it makes itself more "`sticky"' for this very purpose. It is slow but it works
+\section*{The NetLogo Model}
+The program I have written is meant as a simplified version of the immune system.  This program consists of the several different kinds of cells:  macrophages, T-cells, B-cells, mucous membranes helper T-cells as well as antibodies. It also has viruses which attack the system.
+
+Viruses are placed into the system by the user (god).  The viruses follow a simple command which tells them to wander around until they get close enough to a flesh cell to detect it.  Once detected, the virus heads toward the flesh cell.  In reality, viruses don't "`wander around"' they more or less let the forces of their host push them around until they become close enough to the right kind of cell to want to be able to attach on to it.  This process, however, has the same out come: some viruses attach themselves to host cells.  It will cling on to the first flesh cell it comes across where it will atempt to use the cell to produce more viruses.  It starts a hatch count down in the host cell which when it hits zero spits a set number of viruses out of the cell, thus killing the host.  The virus' offspring then go out and cling to the whatever poor host cell they come across.  The everflowing macrophage cells are constantly gobbling up viruses with limited sucess.  The sucess is only enhanced when the virus has antibodies attached to it, allowing for the macrophage to more easily attach itself to the virus.  These antibodies are secreted by the B-cells which also flow around and multiply if near an infection.  They secrete even more antibodies if there is a helper T-cell present which knows that nearby macrophages are consuming the very antigens the B-cells are creating antibodies for.  T-cells are what call for nearby macrophages to come and help if near an infection and they also get rid of infected host cells.  The host cells themselves tell their neighbors (done chemically in reality) to up their defences because of present viruses.  This is the basic model followed by the actual program.  The actual code may be more enlightning especially for one interested in the specifics of the procedures.
+\section*{Conclusion}
+We have seen all of the integrated framework of the immune system and how they work together to fight off various antigens including viruses.  We have seen how viruses replicate themselves as well as find the host cells to do their dirty work.  There are certainly many more additions and tweaks to be made in my computer model itself, but it is able to basically illistrate the complexity of the system while also demonstrating that the virus population never gets out of hand (no matter how many you start with initially as well.  There are still some bugs to get worked out and (most likely) some misconceptions to be cleared up.  Stay tuned for the Artificial Immune Program version 2.0.
+
+\begin{thebibliography} {9}
+	\bibitem{Levy}
+	  Steven Levy,
+	  \emph{Crypto}
+	  Viking Penguin, New York,
+	  1984.
+	\bibitem{Menezes}
+	  Alfred J. Menezes, Paul C van Oorshot, and Scott A. Vanstone,
+	  \emph{Handbook of Applied Cryptography}
+	  CRC Press, New York,
+	  1997.
+	\bibitem{Mel}
+	  Cary Meltzer and Doris Baker,
+	  \emph{Cryptography Decrypted}
+	  Addison-Wesley, New York,
+	  Second Printing
+	  2001.
+	\bibitem{Simmons}
+	  Gustavus J. Simmons,
+	  \emph{Contemporary Cryptology, The Science of Information Integrity}
+	  IEEE Press, New York,
+	  1992.
+	\bibitem{ceaser}
+	  The Institute for Math and Science Education of the University of Illinois at Chicago,
+	  \emph{Cryptography, The Mathematics of Secret Codes}
+	  http://cryptoclub.math.uic.edu/about/aboutbook.htm,
+	  2004.
+	\bibitem{DES}
+	  Greg Sterijevski,
+	  \emph{The Data E,cryption Standard}
+	  http://raphael.math.uic.edu/~jeremy/crypt/contrib/stj.html,
+	  Retrieved 2005.
+	\bibitem{algorithm}
+	  Arnoud Engelfriet,
+	  \emph{The DES encryption algorithm}
+	  http://www.iusmentis.com/technology/encryption/des/,
+	  2003.
+	\bibitem{DESalgorithm}
+	  Arnoud Engelfriet,
+	  \emph{The DES encryption algorithm}
+	  http://www.itl.nist.gov/fipspubs/fip46-2.htm,
+	  2003.
+	%\bibitem{public}
+%	  some guy,
+%	  \emph{public}
+%	  don't know yet,
+%	  2003.
+	\bibitem{cracked}
+	  Dave Rudolf,
+	  \emph{Optimized Differential Cryptanalysis of the Data Encryption Standard}
+	  University of Saskatchewan, http://davrud.sasktelwebsite.net/programming/des/,
+	  2001.
+\end{thebibliography}
+
+
+
+
+\end{document}
